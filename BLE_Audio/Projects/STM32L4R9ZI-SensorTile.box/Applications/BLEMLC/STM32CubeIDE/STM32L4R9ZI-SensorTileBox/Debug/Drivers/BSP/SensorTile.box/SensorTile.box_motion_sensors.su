@@ -1,0 +1,17 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:1338:16:BSP_LSM6DSOX_WriteReg	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:1362:16:BSP_LSM6DSOX_ReadReg	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:1326:16:BSP_LSM6DSOX_DeInit	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:1300:16:BSP_LSM6DSOX_Init	40	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:108:10:BSP_MOTION_SENSOR_Init	96	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:248:9:BSP_MOTION_SENSOR_DeInit	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:274:9:BSP_MOTION_SENSOR_GetCapabilities	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:300:9:BSP_MOTION_SENSOR_ReadID	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:329:9:BSP_MOTION_SENSOR_Enable	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:368:9:BSP_MOTION_SENSOR_Disable	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:408:9:BSP_MOTION_SENSOR_GetAxes	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:448:9:BSP_MOTION_SENSOR_GetAxesRaw	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:488:9:BSP_MOTION_SENSOR_GetSensitivity	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:529:9:BSP_MOTION_SENSOR_GetOutputDataRate	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:569:9:BSP_MOTION_SENSOR_GetFullScale	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:609:9:BSP_MOTION_SENSOR_SetOutputDataRate	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Drivers/BSP/SensorTile.box/SensorTile.box_motion_sensors.c:649:9:BSP_MOTION_SENSOR_SetFullScale	8	static

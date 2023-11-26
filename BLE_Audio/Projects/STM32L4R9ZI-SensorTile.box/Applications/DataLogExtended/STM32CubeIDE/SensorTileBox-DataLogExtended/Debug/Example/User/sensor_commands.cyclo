@@ -1,0 +1,17 @@
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:157:5:Handle_Sensor_command	12
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:222:12:SC_Get_Sensor_Name	7
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:266:12:SC_Read_Register	14
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:338:5:SC_Write_Register	14
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:408:5:SC_Get_Full_Scale_List	7
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:452:12:SC_Set_Full_Scale	9
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:507:12:SC_Get_Full_Scale	9
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:563:12:SC_Get_ODR_List	7
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:607:12:SC_Set_ODR	14
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:680:12:SC_Get_ODR	14
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:752:12:SC_Get_Sensor_List	19
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:863:12:SC_Set_Sensor_Index	25
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:980:6:Send_Sensor_Name	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:1001:6:Send_Sensor_FS_List	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:1023:6:Send_Sensor_ODR_List	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:1045:6:FloatToArray	1
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/sensor_commands.c:1056:6:ArrayToFloat	1

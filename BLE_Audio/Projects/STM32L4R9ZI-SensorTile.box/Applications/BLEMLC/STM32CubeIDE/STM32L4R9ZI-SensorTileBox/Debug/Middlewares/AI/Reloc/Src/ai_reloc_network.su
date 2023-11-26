@@ -1,0 +1,14 @@
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:142:41:call_with_r9	0	static,ignoring_inline_asm
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:604:10:ai_rel_network_rt_get_info	16	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:477:5:_ai_reloc_install	72	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:637:10:ai_rel_network_load_and_create	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:658:10:ai_rel_network_load_and_create_ext	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:683:9:ai_rel_network_init	16	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:698:9:ai_rel_network_get_report	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:713:10:ai_rel_network_get_error	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:730:8:ai_rel_network_run	16	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:746:11:ai_rel_network_destroy	16	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:767:9:ai_rel_platform_observer_register	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:788:9:ai_rel_platform_observer_unregister	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:805:9:ai_rel_platform_observer_node_info	24	static
+/home/dell/Assignment/assignment/demo/Middlewares/ST/AI/Reloc/Src/ai_reloc_network.c:822:9:ai_rel_register_crc_callbacks	4	static

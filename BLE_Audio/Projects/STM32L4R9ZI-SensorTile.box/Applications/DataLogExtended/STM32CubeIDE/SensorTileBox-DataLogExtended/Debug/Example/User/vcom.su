@@ -1,0 +1,5 @@
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/vcom.c:57:5:VCOM_init	8	static
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/vcom.c:84:19:VCOM_receive_MSG	48	static
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/vcom.c:230:19:VCOM_send_MSG	24	static
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/vcom.c:255:10:VCOM_read	24	static
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/vcom.c:300:10:VCOM_write	24	static

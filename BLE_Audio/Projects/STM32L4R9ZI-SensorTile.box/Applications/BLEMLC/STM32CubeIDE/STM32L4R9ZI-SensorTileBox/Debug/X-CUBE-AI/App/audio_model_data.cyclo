@@ -1,0 +1,4 @@
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model_data.c:43:11:ai_audio_model_data_activations_buffer_get	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model_data.c:61:11:ai_audio_model_data_weights_buffer_get	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model_data.c:79:11:ai_audio_model_data_weights_get	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model_data.c:92:9:ai_audio_model_data_params_get	2

@@ -1,0 +1,5 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/main.c:171:5:dwtCyclesToTime1	2
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/main.c:867:6:Error_Handler	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/main.c:195:6:main	33
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/main.c:880:6:HAL_GPIO_EXTI_Callback	4
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/main.c:903:6:HAL_TIM_OC_DelayElapsedCallback	5

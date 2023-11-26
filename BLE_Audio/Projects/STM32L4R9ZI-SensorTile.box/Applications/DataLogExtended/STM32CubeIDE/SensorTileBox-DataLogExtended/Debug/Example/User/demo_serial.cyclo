@@ -1,0 +1,5 @@
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/demo_serial.c:55:6:BUILD_REPLY_HEADER	1
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/demo_serial.c:67:6:BUILD_NACK_HEADER	1
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/demo_serial.c:79:6:INIT_STREAMING_HEADER	1
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/demo_serial.c:92:6:INIT_STREAMING_MSG	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/demo_serial.c:112:5:HandleMSG	22

@@ -1,0 +1,8 @@
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:94:15:CDC_Itf_Init	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:129:15:CDC_Itf_DeInit	1
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:142:15:CDC_Itf_Control	3
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:207:9:CDC_Fill_Buffer	3
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:236:9:CDC_Next_Packet_Rx	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:253:6:CDC_TIM_PeriodElapsedCallback	5
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:291:15:CDC_Itf_Receive	1
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/usbd_cdc_interface.c:304:13:CDC_TIM_Config	2

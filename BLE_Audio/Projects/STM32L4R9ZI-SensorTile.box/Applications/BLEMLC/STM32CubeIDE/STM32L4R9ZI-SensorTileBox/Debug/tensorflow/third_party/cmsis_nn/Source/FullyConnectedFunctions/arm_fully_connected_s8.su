@@ -1,0 +1,2 @@
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_s8.c:50:21:arm_fully_connected_s8	80	static
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_s8.c:91:9:arm_fully_connected_s8_get_buffer_size	0	static

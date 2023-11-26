@@ -1,0 +1,4 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_ActivityRecognition.c:148:13:AttrMod_Request_ActRec	4
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_ActivityRecognition.c:59:17:BLE_InitActRecService	3
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_ActivityRecognition.c:105:12:BLE_ActRecUpdate	4
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_ActivityRecognition.c:179:13:Read_Request_ActRec	3

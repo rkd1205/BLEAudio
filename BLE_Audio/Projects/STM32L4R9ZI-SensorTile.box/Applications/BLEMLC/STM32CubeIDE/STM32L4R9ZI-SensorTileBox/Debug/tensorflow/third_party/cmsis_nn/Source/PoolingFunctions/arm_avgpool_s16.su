@@ -1,0 +1,2 @@
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s16.c:73:21:arm_avgpool_s16	152	static,ignoring_inline_asm
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s16.c:294:9:arm_avgpool_s16_get_buffer_size	0	static

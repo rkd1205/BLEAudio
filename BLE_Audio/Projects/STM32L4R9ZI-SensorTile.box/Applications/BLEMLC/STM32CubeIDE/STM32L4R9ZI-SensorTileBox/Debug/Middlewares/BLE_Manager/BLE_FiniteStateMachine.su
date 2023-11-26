@@ -1,0 +1,4 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_FiniteStateMachine.c:233:13:AttrMod_Request_FiniteStateMachine	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_FiniteStateMachine.c:60:17:BLE_InitFiniteStateMachineService	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_FiniteStateMachine.c:179:12:BLE_FiniteStateMachineUpdate	48	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_FiniteStateMachine.c:101:13:Read_Request_FiniteStateMachine	40	static

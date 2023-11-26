@@ -1,0 +1,15 @@
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:127:9:BSP_ADC1_Initialization	40	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:233:6:HAL_ADC_MspInit	24	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:243:6:HAL_ADC_MspDeInit	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:255:9:BSP_ADC1_DeInitialization	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:280:10:BSP_GetVersion	4	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:295:6:BSP_LED_Init	56	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:327:6:BSP_LED_DeInit	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:341:6:BSP_LED_On	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:359:6:BSP_LED_Off	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:377:6:BSP_LED_Toggle	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:393:6:BSP_PB_Init	48	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:436:6:BSP_PB_DeInit	40	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:451:10:BSP_PB_GetState	16	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:461:10:BSP_PowerButton_Init	40	static
+/home/dell/Assignment/assignment/demo/Drivers/BSP/SensorTile.box/SensorTile.box.c:488:10:BSP_PowerButton_DeInit	32	static

@@ -1,0 +1,6 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/BlueNRG-2/hci/hci_tl_patterns/Basic/hci_tl.c:77:13:send_cmd	264	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/BlueNRG-2/hci/hci_tl_patterns/Basic/hci_tl.c:132:6:hci_init	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/BlueNRG-2/hci/hci_tl_patterns/Basic/hci_tl.c:159:6:hci_register_io_bus	4	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/BlueNRG-2/hci/hci_tl_patterns/Basic/hci_tl.c:169:5:hci_send_req	48	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/BlueNRG-2/hci/hci_tl_patterns/Basic/hci_tl.c:309:6:hci_user_evt_proc	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/BlueNRG-2/hci/hci_tl_patterns/Basic/hci_tl.c:327:9:hci_notify_asynch_evt	24	static

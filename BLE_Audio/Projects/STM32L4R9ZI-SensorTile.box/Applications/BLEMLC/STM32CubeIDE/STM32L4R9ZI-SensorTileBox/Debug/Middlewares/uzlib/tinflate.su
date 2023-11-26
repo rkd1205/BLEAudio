@@ -1,0 +1,11 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:150:13:tinf_build_tree	48	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:277:12:tinf_decode_symbol	40	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:259:21:tinf_read_bits	40	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:192:15:uzlib_get_byte	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:306:12:tinf_decode_trees	376	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:218:10:tinf_get_le_uint32	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:228:10:tinf_get_be_uint32	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:525:6:uzlib_init	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:539:6:uzlib_uncompress_init	4	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:552:5:uzlib_uncompress	32	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinflate.c:617:5:uzlib_uncompress_chksum	16	static

@@ -1,0 +1,7 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:117:10:USBD_VCP_DeviceDescriptor	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:129:10:USBD_VCP_LangIDStrDescriptor	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:141:10:USBD_VCP_ProductStrDescriptor	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:153:10:USBD_VCP_ManufacturerStrDescriptor	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:181:10:USBD_VCP_ConfigStrDescriptor	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:193:10:USBD_VCP_InterfaceStrDescriptor	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_desc.c:165:10:USBD_VCP_SerialStrDescriptor	12	static

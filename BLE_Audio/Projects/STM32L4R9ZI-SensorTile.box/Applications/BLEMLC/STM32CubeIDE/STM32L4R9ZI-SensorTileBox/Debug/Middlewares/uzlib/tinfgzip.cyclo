@@ -1,0 +1,3 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinfgzip.c:47:6:tinf_skip_bytes	3
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinfgzip.c:52:10:tinf_get_uint16	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/Third_Party/uzlib/src/tinfgzip.c:59:5:uzlib_gzip_parse_header	14

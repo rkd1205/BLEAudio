@@ -1,0 +1,11 @@
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:554:9:ai_audio_model_get_info	4
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:600:9:ai_audio_model_get_report	4
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:646:10:ai_audio_model_get_error	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:652:10:ai_audio_model_create	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:696:12:ai_audio_model_inputs_get	2
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:706:12:ai_audio_model_outputs_get	2
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:716:11:ai_audio_model_destroy	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:722:9:ai_audio_model_init	4
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:662:10:ai_audio_model_create_and_init	10
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:739:8:ai_audio_model_run	1
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/audio_model.c:746:8:ai_audio_model_forward	1

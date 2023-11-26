@@ -1,0 +1,7 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:72:9:HCI_TL_SPI_Init	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:110:9:HCI_TL_SPI_DeInit	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:124:9:HCI_TL_SPI_Reset	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:143:9:HCI_TL_SPI_Receive	4
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:203:9:HCI_TL_SPI_Send	6
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:293:6:hci_tl_lowlevel_init	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/hci_tl_interface.c:333:6:hci_tl_lowlevel_isr	2

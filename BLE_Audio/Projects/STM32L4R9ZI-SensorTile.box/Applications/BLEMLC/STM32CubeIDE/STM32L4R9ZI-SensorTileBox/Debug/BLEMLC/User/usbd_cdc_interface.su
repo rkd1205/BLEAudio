@@ -1,0 +1,7 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:113:15:CDC_Itf_DeInit	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:128:15:CDC_Itf_Control	4	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:85:15:CDC_Itf_Init	16	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:273:15:CDC_Itf_Receive	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:193:9:CDC_Fill_Buffer	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:221:9:CDC_Next_Packet_Rx	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/usbd_cdc_interface.c:239:6:CDC_PeriodElapsedCallback	16	static

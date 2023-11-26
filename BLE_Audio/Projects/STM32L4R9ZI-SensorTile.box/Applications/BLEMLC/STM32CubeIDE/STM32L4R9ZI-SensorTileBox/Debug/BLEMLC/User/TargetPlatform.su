@@ -1,0 +1,10 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:67:6:InitTargetPlatform	40	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:120:6:DeInit_MEMS	16	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:142:6:Init_MEMS	16	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:157:6:Init_MEMS_MLC	72	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:237:6:Init_MEMS_FSM	72	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:385:6:LedOnTargetPlatform	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:395:6:LedOffTargetPlatform	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:404:6:LedToggleTargetPlatform	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:413:6:LedInitTargetPlatform	8	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/TargetPlatform.c:426:10:VCOM_read	16	static

@@ -1,0 +1,2 @@
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s8.c:220:21:arm_avgpool_s8	20
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s8.c:349:9:arm_avgpool_s8_get_buffer_size	1

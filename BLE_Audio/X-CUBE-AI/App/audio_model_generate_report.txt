@@ -1,0 +1,162 @@
+Neural Network Tools for STM32AI v1.7.0 (STM.ai v8.0.1-19450)
+Created date          : 2023-11-22 04:59:03
+Parameters            : generate --name audio_model -m /home/dell/Assignment/audio_model/audio_model.tflite --type tflite --compression none --verbosity 1 --workspace /tmp/mxAI_workspace1455650332343549335684224768923184 --output /home/dell/.stm32cubemx/audio_model_output --allocate-inputs --series stm32l4 --allocate-outputs
+
+Exec/report summary (generate)
+---------------------------------------------------------------------------------------------
+model file         :   /home/dell/Assignment/audio_model/audio_model.tflite                  
+type               :   tflite                                                                
+c_name             :   audio_model                                                           
+compression        :   none                                                                  
+options            :   allocate-inputs, allocate-outputs                                     
+optimization       :   balanced                                                              
+target/series      :   stm32l4                                                               
+workspace dir      :   /tmp/mxAI_workspace1455650332343549335684224768923184                 
+output dir         :   /home/dell/.stm32cubemx/audio_model_output                            
+model_fmt          :   ss/sa per-channel                                                     
+model_name         :   audio_model                                                           
+model_hash         :   1c680d67f792f2590465c80798b55474                                      
+params #           :   809 items (836 B)                                                     
+---------------------------------------------------------------------------------------------
+input 1/1          :   'serving_default_input_10' (domain:activations/**default**)           
+                   :   15996 items, 15.62 KiB, ai_i8, s=0.40765932, zp=-128, (1,124,129,1)   
+output 1/1         :   'nl_5' (domain:activations/**default**)                               
+                   :   1 items, 1 B, ai_i8, s=0.00390625, zp=-128, (1,1,1,1)                 
+macc               :   123,370                                                               
+weights (ro)       :   836 B (836 B) (1 segment) / -2,400(-74.2%) vs float model             
+activations (rw)   :   79,980 B (78.11 KiB) (1 segment) *                                    
+ram (total)        :   79,980 B (78.11 KiB) = 79,980 + 0 + 0                                 
+---------------------------------------------------------------------------------------------
+(*) 'input'/'output' buffers can be used from the activations buffer
+
+Model name - audio_model ['serving_default_input_10'] ['nl_5']
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+m_id   layer (type,original)                            oshape                  param/size       macc               connected to   | c_size          c_macc              c_type                                                
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+0      serving_default_input_10 (Input, )               [b:1,h:124,w:129,c:1]                                                      |                 +34,040(+100.0%)    converter_of32/upsample_of32/converter_oi8[0, 1, 2]   
+       upsample_0 (Upsample, RESIZE_NEAREST_NEIGHBOR)   [b:1,h:32,w:32,c:1]                             serving_default_input_10   |                                     
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+1      conv2d_1 (Conv2D, CONV_2D)                       [b:1,h:13,w:13,c:8]     520/544        86,536                 upsample_0   | -544(-100.0%)   -86,536(-100.0%)    
+       nl_1_nl (Nonlinearity, CONV_2D)                  [b:1,h:13,w:13,c:8]                     1,352                   conv2d_1   |                 -1,352(-100.0%)     
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+2      pool_2 (Pool, MAX_POOL_2D)                       [b:1,h:6,w:6,c:8]                       1,152                    nl_1_nl   | +544(+100.0%)   +87,888(+7629.2%)   optimized_conv2d_oi8[3]                               
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+3      reshape_3 (Reshape, RESHAPE)                     [b:1,c:288]                                                       pool_2   |                                     
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+4      dense_4 (Dense, FULLY_CONNECTED)                 [b:1,c:1]               289/292           289                  reshape_3   |                                     dense_oi8[4]                                          
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+5      nl_5 (Nonlinearity, LOGISTIC)                    [b:1,c:1]                                  10                    dense_4   |                 -9(-90.0%)          nl_oi8[o][5]                                          
+------ ------------------------------------------------ ----------------------- ------------ -------- -------------------------- --- --------------- ------------------- ----------------------------------------------------- 
+model/c-model: macc=89,339/123,370 +34,031(+38.1%) weights=836/836  activations=--/79,980 io=--/0
+
+
+
+Generated C-graph summary
+------------------------------------------------------------------------------------------------------------------------
+model name            : audio_model
+c-name                : audio_model
+c-node #              : 6
+c-array #             : 15
+activations size      : 79980 (1 segment)
+weights size          : 836 (1 segment)
+macc                  : 123370
+inputs                : ['serving_default_input_10_output']
+outputs               : ['nl_5_output']
+
+C-Arrays (15)
+------ ---------------------------------------------- ------------- ------------------------- --------------- ------------ --------- 
+c_id   name (*_array)                                 item/size     domain/mem-pool           c-type          fmt          comment   
+------ ---------------------------------------------- ------------- ------------------------- --------------- ------------ --------- 
+0      serving_default_input_10_0_conversion_output   15996/63984   activations/**default**   float           float32                
+1      upsample_0_output                              1024/4096     activations/**default**   float           float32                
+2      upsample_0_0_conversion_output                 1024/1024     activations/**default**   int8_t          sa8                    
+3      conv2d_1_scratch0                              1360/1360     activations/**default**   int8_t          s8                     
+4      conv2d_1_output                                288/288       activations/**default**   int8_t          sa8                    
+5      conv2d_1_scratch1                              208/208       activations/**default**   int8_t          sa8                    
+6      dense_4_output                                 1/1           activations/**default**   int8_t          sa8                    
+7      nl_5_output                                    1/1           activations/**default**   int8_t          sa8          /output   
+8      conv2d_1_scratch2                              208/208       activations/**default**   int8_t          sa8                    
+9      dense_4_scratch0                               288/576       activations/**default**   int16_t         s16                    
+10     conv2d_1_weights                               512/512       weights/weights           const int8_t    ss8/ch(8)              
+11     conv2d_1_bias                                  8/32          weights/weights           const int32_t   ss32/ch(8)             
+12     dense_4_weights                                288/288       weights/weights           const int8_t    ss8                    
+13     dense_4_bias                                   1/4           weights/weights           const int32_t   ss32                   
+14     serving_default_input_10_output                15996/15996   activations/**default**   int8_t          sa8          /input    
+------ ---------------------------------------------- ------------- ------------------------- --------------- ------------ --------- 
+
+C-Layers (6)
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+c_id   name (*_layer)                          id   layer_type          macc    rom   tensors                                           shape (array id)     
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+0      serving_default_input_10_0_conversion   0    converter           31992   0     I: serving_default_input_10_output                (1,124,129,1) (14)   
+                                                                                      O: serving_default_input_10_0_conversion_output   (1,124,129,1) (0)    
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+1      upsample_0                              0    upsample            0       0     I: serving_default_input_10_0_conversion_output   (1,124,129,1) (0)    
+                                                                                      O: upsample_0_output                              (1,32,32,1) (1)      
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+2      upsample_0_0_conversion                 0    converter           2048    0     I: upsample_0_output                              (1,32,32,1) (1)      
+                                                                                      O: upsample_0_0_conversion_output                 (1,32,32,1) (2)      
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+3      conv2d_1                                2    optimized_conv2d    89040   544   I: upsample_0_0_conversion_output                 (1,32,32,1) (2)      
+                                                                                      S: conv2d_1_scratch0                                                   
+                                                                                      S: conv2d_1_scratch1                                                   
+                                                                                      S: conv2d_1_scratch2                                                   
+                                                                                      W: conv2d_1_weights                               (1,8,8,8) (10)       
+                                                                                      W: conv2d_1_bias                                  (1,1,1,8) (11)       
+                                                                                      O: conv2d_1_output                                (1,6,6,8) (4)        
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+4      dense_4                                 4    dense               289     292   I: conv2d_1_output0                               (1,1,1,288) (4)      
+                                                                                      S: dense_4_scratch0                                                    
+                                                                                      W: dense_4_weights                                (288,1,1,1) (12)     
+                                                                                      W: dense_4_bias                                   (1,1,1,1) (13)       
+                                                                                      O: dense_4_output                                 (1,1,1,1) (6)        
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+5      nl_5                                    5    nl                  1       0     I: dense_4_output                                 (1,1,1,1) (6)        
+                                                                                      O: nl_5_output                                    (1,1,1,1) (7)        
+------ --------------------------------------- ---- ------------------- ------- ----- ------------------------------------------------- -------------------- 
+
+
+
+Number of operations per c-layer
+------- ------ --------------------------------------------------- --------- -------------- -------- ---------- 
+c_id    m_id   name (type)                                               #op           type   #param   sparsity 
+------- ------ --------------------------------------------------- --------- -------------- -------- ---------- 
+0       0      serving_default_input_10_0_conversion (converter)      31,992    smul_s8_f32          
+1       0      upsample_0 (upsample)                                       0   smul_f32_f32          
+2       0      upsample_0_0_conversion (converter)                     2,048    smul_f32_s8          
+3       2      conv2d_1 (optimized_conv2d)                            89,040     smul_s8_s8      520     0.0077 
+4       4      dense_4 (dense)                                           289     smul_s8_s8      289     0.0069 
+5       5      nl_5 (nl)                                                   1       op_s8_s8          
+------- ------ --------------------------------------------------- --------- -------------- -------- ---------- 
+total                                                                123,370                     809     0.0074 
+
+Number of operation types
+---------------- -------- ----------- 
+operation type          #           % 
+---------------- -------- ----------- 
+smul_s8_f32        31,992       25.9% 
+smul_f32_f32            0        0.0% 
+smul_f32_s8         2,048        1.7% 
+smul_s8_s8         89,329       72.4% 
+op_s8_s8                1        0.0% 
+
+Complexity report (model)
+------ -------------------------- ------------------------- ------------------------- ----------- 
+m_id   name                       c_macc                    c_rom                     c_id        
+------ -------------------------- ------------------------- ------------------------- ----------- 
+0      serving_default_input_10   ||||||            27.6%   |                  0.0%   [0, 1, 2]   
+2      pool_2                     ||||||||||||||||  72.2%   ||||||||||||||||  65.1%   [3]         
+4      dense_4                    |                  0.2%   |||||||||         34.9%   [4]         
+5      nl_5                       |                  0.0%   |                  0.0%   [5]         
+------ -------------------------- ------------------------- ------------------------- ----------- 
+macc=123,370 weights=836 act=79,980 ram_io=0
+
+Generated files (7)
+---------------------------------------------------------------------- 
+/home/dell/.stm32cubemx/audio_model_output/audio_model_config.h        
+/home/dell/.stm32cubemx/audio_model_output/audio_model.h               
+/home/dell/.stm32cubemx/audio_model_output/audio_model.c               
+/home/dell/.stm32cubemx/audio_model_output/audio_model_data_params.h   
+/home/dell/.stm32cubemx/audio_model_output/audio_model_data_params.c   
+/home/dell/.stm32cubemx/audio_model_output/audio_model_data.h          
+/home/dell/.stm32cubemx/audio_model_output/audio_model_data.c          

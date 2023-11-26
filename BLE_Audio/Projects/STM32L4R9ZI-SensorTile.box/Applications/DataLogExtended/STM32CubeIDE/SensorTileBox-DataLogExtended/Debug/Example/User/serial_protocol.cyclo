@@ -1,0 +1,11 @@
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:47:5:ByteStuffCopyByte	3
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:71:5:ByteStuffCopy	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:91:5:ReverseByteStuffCopyByte	4
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:121:5:ReverseByteStuffCopyByte2	4
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:150:5:ReverseByteStuffCopy	7
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:201:6:CHK_ComputeAndAdd	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:219:5:CHK_CheckAndRemove	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:239:6:Serialize	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:255:10:Deserialize	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:274:6:Serialize_s32	2
+/home/dell/Assignment/assignment/demo/Projects/STM32L4R9ZI-SensorTile.box/Applications/DataLogExtended/Src/serial_protocol.c:290:9:Deserialize_s32	2

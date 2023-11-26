@@ -1,0 +1,4 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_MachineLearningCore.c:230:13:AttrMod_Request_MachineLearningCore	0	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_MachineLearningCore.c:60:17:BLE_InitMachineLearningCoreService	24	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_MachineLearningCore.c:178:12:BLE_MachineLearningCoreUpdate	40	static
+/home/dell/Assignment/assignment/Assignment/demo_1/Middlewares/ST/STM32_BLE_Manager/Src/BLE_MachineLearningCore.c:105:13:Read_Request_MachineLearningCore	32	static

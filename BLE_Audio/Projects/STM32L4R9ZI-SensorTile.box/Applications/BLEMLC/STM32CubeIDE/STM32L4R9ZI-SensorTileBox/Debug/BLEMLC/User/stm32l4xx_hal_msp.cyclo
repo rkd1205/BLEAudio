@@ -1,0 +1,4 @@
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/stm32l4xx_hal_msp.c:42:6:HAL_CRC_MspDeInit	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/stm32l4xx_hal_msp.c:59:6:HAL_TIM_OC_MspInit	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/stm32l4xx_hal_msp.c:76:6:HAL_PCD_MspInit	1
+/home/dell/Assignment/assignment/Assignment/demo_1/Projects/STM32L4R9ZI-SensorTile.box/Applications/BLEMLC/Src/stm32l4xx_hal_msp.c:106:6:HAL_PCD_MspDeInit	1

@@ -1,0 +1,2 @@
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_fast_s16.c:51:21:arm_depthwise_conv_fast_s16	320	static,ignoring_inline_asm
+/home/dell/Assignment/assignment/demo/Middlewares/tensorflow/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_fast_s16.c:449:9:arm_depthwise_conv_fast_s16_get_buffer_size	0	static

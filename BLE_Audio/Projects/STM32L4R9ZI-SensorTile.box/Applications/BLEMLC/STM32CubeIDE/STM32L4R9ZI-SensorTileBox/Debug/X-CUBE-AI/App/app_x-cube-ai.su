@@ -1,0 +1,11 @@
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:60:6:MX_X_CUBE_AI_Init	0	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:68:6:MX_X_CUBE_AI_Process	0	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:138:13:ai_mnetwork_find	16	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:155:10:ai_mnetwork_create	24	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:201:11:ai_mnetwork_destroy	16	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:216:9:ai_mnetwork_get_report	0	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:227:10:ai_mnetwork_get_error	0	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:242:9:ai_mnetwork_init	72	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:259:8:ai_mnetwork_run	4	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:271:8:ai_mnetwork_forward	0	static
+/home/dell/Assignment/assignment/demo/X-CUBE-AI/App/app_x-cube-ai.c:282:6:ai_mnetwork_get_private_handle	8	static
